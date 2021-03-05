@@ -1,0 +1,89 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.backImage {
+  width: 95%;
+  height: 95%;
+  position: absolute;
+  top: 0px;
+  z-index: -1;
+}
+
+.playToggle {
+  width: 50px;
+  height: 50px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: bisque;
+  border: black solid 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fa-stop {
+  font-size: 25px;
+  border-radius: 10px;
+}
+.timer {
+  border: 3px solid black;
+  width: 100px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: white;
+  font-size: 17px;
+  font-weight: 800;
+}
+.counter {
+  border: 3px solid black;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: coral;
+  font-size: 30px;
+  color: white;
+  font-weight: 600;
+}
+.popUp {
+  border: solid 1px black;
+  position: absolute;
+  bottom: 120px;
+  width: 300px;
+  height: 100px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.replay {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: bisque;
+  border: black solid 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.popUpContent {
+  font-size: 35px;
+  color: white;
+}
+.fa-redo {
+  font-size: 25px;
+  border-radius: 10px;
+}
