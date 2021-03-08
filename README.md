@@ -1,3 +1,3 @@
 # carrotGame
-JavaScript Studyin 10 2021.02
+JavaScript Studyin 10 2021.02<br>
 Make a small game
